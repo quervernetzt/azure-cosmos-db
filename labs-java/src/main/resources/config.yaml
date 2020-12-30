@@ -1,0 +1,8 @@
+# Services config
+cosmosDBConfig:
+   endpointUri: "https://xxx.documents.azure.com:443/"
+   primaryKey: "xxx=="
+   preferredRegions:
+      - westus
+   clientDefaultConsistencyLevel: "Session"
+   throttelingRetryMaxCount: 9
