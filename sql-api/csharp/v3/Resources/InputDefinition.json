@@ -1,0 +1,22 @@
+    {
+        "properties": {
+            "type": "Stream",
+            "datasource": {
+                "type": "Microsoft.ServiceBus/EventHub",
+                "properties": {
+                    "serviceBusNamespace": "shoppingHub89272",
+                    "sharedAccessPolicyName": "RootManageSharedAccessKey",
+                    "sharedAccessPolicyKey": "RootManageSharedAccessKey",
+                    "eventHubName": "carteventhub"
+                }
+            },
+            "serialization": {
+                "type": "Json",
+                "properties": {
+                    "encoding": "UTF8"
+                }
+            }            
+        },
+        "name": "cartInput",
+        "type": "Microsoft.StreamAnalytics/streamingjobs/inputs"
+        }

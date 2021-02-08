@@ -1,0 +1,12 @@
+    {
+        "name": "CosmosDbSQLAPILinkedService",
+        "properties": {
+            "type": "CosmosDb",
+            "typeProperties": {
+                "connectionString": {
+                    "type": "SecureString",
+                    "value": "AccountEndpoint=https://cosmoslab89272.documents.azure.com:443/;AccountKey=n7Sc0SjNdybgKV6bgD4s9MAs9EDa6lTAkLqn8bEXZHNeqcJBftPTpmeZzqFbaiq4wAePySAEz5a8JK933WKnKw==;Database=NutritionDatabase"
+                }
+            }
+        }
+    }

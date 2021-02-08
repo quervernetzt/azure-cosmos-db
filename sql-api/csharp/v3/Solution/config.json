@@ -1,0 +1,7 @@
+{
+  "CosmosDB": {
+    "URI": "https://xxx.documents.azure.com:443/",
+    "PrimaryKey": "xxx==",
+    "PrimaryConnectionString": "AccountEndpoint=https://xxx.documents.azure.com:443/;AccountKey=xxx==;"
+  }
+}
